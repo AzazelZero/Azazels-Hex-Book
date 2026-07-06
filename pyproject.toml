@@ -15,7 +15,7 @@ authors = [
     { name="AzazelZero" },
 ]
 keywords = ["hexdoc"]
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dynamic = ["version", "dependencies", "optional-dependencies"]
 
 [project.urls]
@@ -67,7 +67,7 @@ azazelshexes = "hexdoc_azazelshexes._hooks:AzazelshexesPlugin"
 # linting
 
 [tool.pyright]
-pythonVersion = "3.12"
+pythonVersion = "3.11"
 pythonPlatform = "All"
 
 include = ["doc/src"]
