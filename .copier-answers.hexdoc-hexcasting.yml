@@ -4,7 +4,7 @@ _commit: v0.2.0
 _src_path: gh:hexdoc-dev/hexdoc-hexcasting-template
 advanced: false
 capitalize_platforms: false
-github_repo: Azazel-s-Hex-Book
+github_repo: Azazels-Hex-Book
 github_user: AzazelZero
 gradle_deps_type: gradle.properties
 gradle_hex_version_key: hexcastingVersion
