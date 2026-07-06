@@ -6,6 +6,7 @@ import at.petrak.hexcasting.api.casting.castables.Action;
 import at.petrak.hexcasting.api.casting.math.HexDir;
 import at.petrak.hexcasting.api.casting.math.HexPattern;
 import net.digideeps.azazelshexes.Constants;
+import net.digideeps.azazelshexes.registry.casting.OpClockGambit;
 import net.digideeps.azazelshexes.registry.casting.OpTest;
 import net.minecraft.resources.ResourceLocation;
 import org.jetbrains.annotations.Unmodifiable;
@@ -31,6 +32,7 @@ public class Patterns {
     public static Map<ActionRegistryEntry, ResourceLocation> makePatternsPatterns(){
         Actions.clear();
         make("zany","weaw",  HexDir.EAST, OpTest.INSTANCE);
+        make("clockgambit","wawdwewewewewew",  HexDir.SOUTH_WEST, OpClockGambit.INSTANCE);
         return Map.copyOf(Actions);
     }
 
