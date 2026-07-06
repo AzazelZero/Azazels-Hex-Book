@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+# https://copier.readthedocs.io/en/stable/updating/#never-change-the-answers-file-manually
+_commit: v0.2.0
+_src_path: gh:hexdoc-dev/hexdoc-hexcasting-template
+advanced: false
+capitalize_platforms: false
+github_repo: Azazel-s-Hex-Book
+github_user: AzazelZero
+gradle_deps_type: gradle.properties
+gradle_hex_version_key: hexcastingVersion
+gradle_mod_version_key: modVersion
+main_branch: master
+minecraft_version: 1.20.1
+minecraft_version_in_mod_version: false
+mod_description: Add niche but expansive features for Hex Casting.
+mod_display_name: Azazel's Hexes
+modid: azazelshexes
+multiloader: true
+pattern_registry_path: /main/java/net/digideeps/azazelshexes/registry/Patterns.java
