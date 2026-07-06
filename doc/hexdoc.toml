@@ -46,7 +46,7 @@ make\(
 
 '''
 [[extra.hexcasting.pattern_stubs]]
-path = "{$_common.src}/main/java/net/digideeps/azazelshexes/registry/Patterns.java"
+path = "../Patterns.java"
 regex = "{^_pattern_regex}"
 
 # source paths
