@@ -52,10 +52,10 @@ regex = "{^_pattern_regex}"
 # source paths
 
 [_common]
-src = "../AzazelsHexes/common/src"
+src = "../commonResources/src"
 
 [_fabric]
-src = "../AzazelsHexes/fabric/src"
+src = "../fabricResources/src"
 
 [_forge]
-src = "../AzazelsHexes/forge/src"
+src = "../forgeResources/src"
